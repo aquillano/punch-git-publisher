@@ -1,0 +1,31 @@
+{
+	"name": "punch-git-publisher",
+	"description": "Publish your site to any host that supports GIT",
+	"keywords": [
+		"punch",
+		"git",
+		"publish"
+	],
+	"version": "0.0.1",
+	"homepage": "https://github.com/aquillano/punch-git-publisher",
+	"author": "Steve Aquillano <steveaquillano@gmail.com> (http://steveaquillano.com)",
+	"licenses": "MIT",
+	"bugs": {
+		"url": "http://github.com/aquillano/punch-git-publisher/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/aquillano/punch-git-publisher.git"
+	},
+	"main": "./lib/git.js",
+	"dependencies": {
+		"gitty": ">= 1.1.x"
+	},
+	"devDependencies": {
+		"jasmine-node": ">= 1.0.x",
+		"jshint": ">= 0.9.x"
+	},
+	"scripts": {
+		"test": "jasmine-node spec"
+	}
+}
